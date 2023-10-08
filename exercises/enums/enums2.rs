@@ -30,6 +30,6 @@ fn main() {
     ];
 
     for message in &messages {
-        message.call(());
+        message.call();
     }
 }
